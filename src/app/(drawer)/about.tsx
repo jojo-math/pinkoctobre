@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { useThemeMode } from '../theme/ThemeProvider';
+import { useThemeMode } from '../../theme/ThemeProvider';
 
 export default function About() {
   const { theme, toggleTheme } = useThemeMode();

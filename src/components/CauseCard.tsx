@@ -16,7 +16,8 @@ export default function CauseCard(objItem:Cause) {
             style={{backgroundColor: theme === "dark" ? "#000" : "#f8faff"}}
             className="bg-zinc-900 p-3 rounded-xl mb-3 shadow-md">
               <Text className="text-pinktober font-semibold">{objItem.nom}</Text>
-              <Text className="text-zinc-400">{objItem.description}</Text>
+              <Text
+              style={{color: theme === "dark" ? "#fff" : "#000"}}>{objItem.description}</Text>
             </View>
           </Pressable>
     </View>

@@ -1,7 +1,7 @@
 import { Drawer } from "expo-router/drawer";
 import React from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { ThemeProvider, useThemeMode } from "../theme/ThemeProvider";
+import { ThemeProvider, useThemeMode } from "../../theme/ThemeProvider";
 
 function DrawerLayout() {
   const { theme } = useThemeMode();
@@ -16,7 +16,7 @@ function DrawerLayout() {
         drawerStyle: { backgroundColor: theme === "dark" ? "#111" : "#f9f9f9" },
       }}
     >
-      <Drawer.Screen name="index" options={{ title: "Accueil" }} />
+      <Drawer.Screen name="index" options={{ title: "Accueil", headerShown: false }} />
       <Drawer.Screen name="causes/index" options={{ title: "Causes" }} />
       <Drawer.Screen
         name="causes/[id]"

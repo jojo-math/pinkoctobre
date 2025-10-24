@@ -3,5 +3,6 @@ export interface Cause {
   nom: string;
   image: string;
   description: string;
+  dateDecouverte?: string;
   preventions: string[];
 }

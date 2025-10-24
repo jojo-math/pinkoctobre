@@ -17,6 +17,7 @@ export default function Index() {
         data={CAUSES}
         renderItem={({item}) => <CauseCard {...item} />}
         keyExtractor={(item) => item.id}
+        className="pb-[20vh]"
       />
     </View>
   )
