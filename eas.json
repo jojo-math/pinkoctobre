@@ -18,9 +18,6 @@
       "environment": "production"
     }
   },
-  "my-profile": {
-      "environment": "production"
-  },
   "submit": {
     "production": {}
   }
