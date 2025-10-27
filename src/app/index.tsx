@@ -22,6 +22,8 @@ export default function Index() {
       <Link href="/causes" className="text-white p-2 bg-pinktober-dark rounded-lg text-lg font-bold active:opacity-70">
         Découvrir les causes
       </Link>
+
+      <Link href="/(drawer)/tabs/fruit" className="dark:text-black dark:bg-zinc-300 px-2 py-1 mt-2 rounded-lg text-lg font-bold active:opacity-70">Tabs</Link>
     </View>
 
   );

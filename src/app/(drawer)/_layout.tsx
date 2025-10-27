@@ -22,7 +22,14 @@ function DrawerLayout() {
         name="causes/[id]"
         options={{ title: "Détails", drawerItemStyle: { display: "none" } }}
       />
-      <Drawer.Screen name="about" options={{ title: "À propos" }} />
+      <Drawer.Screen name="about/index" options={{ title: "À propos de PinkOctobre" }} />
+      <Drawer.Screen name="a propos/index" options={{ title: "À propos" }} />
+      <Drawer.Screen name="accueil/index" options={{ title: "Acceuil" }} />
+      <Drawer.Screen name="preference/index" options={{ title: "Préférence" }} />
+      <Drawer.Screen name="profil/index" options={{ title: "Profil" }} />
+      <Drawer.Screen name="tabs" options={{ title: "Tabs",
+       }} />
+      
     </Drawer>
   );
 }
